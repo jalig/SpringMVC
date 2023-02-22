@@ -2,13 +2,17 @@
 <html>
 <body>
 
-
-placeholder = "Please enter your country and capital"
+Please enter your country and capital
+<br>
 
 <form action="showInfo" method="get">
 
-    <input type="text" name="country">
-    <input type="text" name="capital">
+    <input placeholder="Country" name="country">
+    <br>
+    <br>
+    <input placeholder="Capital" name="capital">
+    <br>
+    <br>
     <input type="submit">
 
 </form>
